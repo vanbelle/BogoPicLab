@@ -8,7 +8,9 @@
         android:targetSdkVersion="17" />
     
     <!-- Add permission for camera (android.permission.CAMERA) -->
+    <uses-permission android:name="android.permission.CAMERA" />
     
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>    
     <!-- Add permission for writing to external storage (android.permission.WRITE_EXTERNAL_STORAGE) -->
     
     <application
